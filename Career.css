@@ -1,0 +1,53 @@
+
+.titlebox {
+  width: 90%;
+  height: 250px;
+  margin-left: 5%;
+  background-color: #b79dbf;
+}
+
+.stuff {
+  margin-left: 1%;
+}
+
+.blogs{
+width: 90%;
+margin-left: 15%;
+margin-top: 3%;
+}
+
+.blog1 {
+  width: 35%;
+  height: 40%;
+  float: left;
+  background-color: white;
+  filter: opacity(0.8);
+}
+.info1 h2 {
+  margin-top: 3%;
+  text-align: center;
+}
+.info1 li{
+  margin-left: 4%;
+}
+
+.blog2 {
+  width: 35%;
+  height: 40%;
+  float: left;
+  margin-left: 5%;
+  background-color: white;
+  filter: opacity(0.8);
+}
+.info2 h2{
+  margin-top: 3%;
+text-align: center;
+}
+.info2 li {
+  margin-left: 4%;
+}
+
+button{
+  float: right;
+  
+}

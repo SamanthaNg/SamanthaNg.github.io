@@ -1,0 +1,408 @@
+
+.Samantha {
+background-image:  linear-gradient(gray,lightgray , rgba(255, 0, 0, 0.3));
+animation: scale 3s;
+}
+
+@keyframes scale {
+  0%{transform: scale(0); }
+  100%{transform: scale(1);}
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+
+
+
+@keyframes slideshow {
+
+  0% {margin-left: 0px; }
+
+  35% {margin-left: -100%; }
+
+  70% {margin-left: -200%; }
+
+  100% {margin-left: -300%; }
+}
+
+.frame{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+.slidewrapper{
+  width: 400%;
+  height: 100%;;
+  animation: slideshow 10s infinite;
+
+}
+
+
+.slide{
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+
+}
+
+.slide h1{
+  font-size: 12em;
+}
+
+.h1{
+  background-color: powderblue;
+}
+
+.h2{
+  background-color: lightpink;
+}
+
+.h3{
+  background-color: orange;
+}
+
+.h4{
+  background-color: lightgreen;
+}
+
+
+
+.modalwindow{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: black;
+opacity: 0;
+pointer-events: none;
+filter: opacity(0.90);
+}
+
+
+.modalwindow:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblock{
+position: relative;
+width: 60%;
+height: 83%;
+background-color: white;
+margin: auto;
+margin-top: 5%;
+
+}
+
+
+
+.heading{
+  position: relative;
+  width: 70%;
+  margin-left: 6%;
+
+}
+
+
+.imginwindow{
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+}
+
+.link{
+  background-color: white;
+  text-align: center;
+  margin-left: 96%;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+  color: black;
+
+}
+
+.messageimgbox {
+width: 100%;
+height: 35%;
+margin-left: 1%;
+}
+
+.link2 {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 92%;
+
+}
+
+.whiteline hr {
+  color: white;
+}
+
+
+
+
+
+  .container2 {
+
+  }
+
+
+  .imgbox2 {
+  margin-top: 3%;
+
+  }
+
+  .item1{
+           width: 30%;
+           height:355px;
+           float: left;
+           background-color: white;
+           box-shadow: 6px 5px 5px gray;
+  }
+  .item2{
+           width: 30%;
+           height: 550px;
+           float: left;
+           background-color: white;
+           margin-left: 2%;
+           box-shadow: 6px 5px 5px gray;
+  }
+
+  .item3{
+           width: 30%;
+           height: 520px;
+           float: left;
+           background-color: white;
+           margin-left: 2%;
+           box-shadow: 6px 5px 5px gray;
+  }
+
+
+
+.html {
+  width: 90%;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.css {
+  width: 90%;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.bootstrap{
+  width: 90%;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+.message {
+  margin-left:  5%;
+}
+
+
+
+
+
+
+
+.nav {
+  height: 500px;
+  width: 90%;
+  padding: 8px;
+  color: lightgrey;
+  background-color: black;
+  margin: auto;
+}
+
+
+.info{
+         width: 20%;
+         height:50px;
+        float: left;
+        margin: 2% 2%;
+        text-align: center;
+
+}
+.info2{
+         width: 20%;
+         height: 50px;
+         float: left;
+         margin: 2% 2%;
+         text-align: center;
+
+}
+
+.info3{
+         width: 20%;
+         height: 50px;
+         float: left;
+         margin: 2% 2%;
+         text-align: center;
+
+}
+
+.info4{
+         width: 20%;
+         height: 50px;
+         float: left;
+         margin: 2% 2%;
+         text-align: center;
+
+}
+
+.text {
+  float: right;
+}
+
+.imgs5 {
+  width: 4%;
+  height: 9%;
+  float: right;
+
+}
+
+
+
+.container4 {
+
+}
+
+
+.imgs{
+margin-top: 4%;
+margin-left: 75%;
+
+}
+
+.one{
+         width:15%;
+         height:50px;
+        float: left;
+
+}
+.two{
+         width: 15%;
+         height: 50px;
+         float: left;
+
+}
+
+.three{
+         width: 15%;
+         height: 50px;
+         float: left;
+
+}
+.four{
+         width: 15%;
+         height: 50px;
+         float: left;
+
+}
+.five{
+         width: 15%;
+         height: 50px;
+         float: left;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.text2 {
+  text-align: center;
+
+}
+
+.lastline hr {
+  color: lightgray;
+}
+
+
+
+
+.modalwindowIII{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color:;
+opacity: 0;
+pointer-events: none;
+filter:;
+}
+
+
+.modalwindowIII:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblockIII{
+position: relative;
+width: 100%;
+height: 35%;
+background-color: #a4b0a7;
+margin: auto;
+
+}
+
+
+
+.headingIII{
+  position: relative;
+  width: 70%;
+  margin-left: 2%;
+
+}
+
+.link{
+  background-color: white;
+  text-align: center;
+  margin-left: 96%;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+  color: black;
+
+}
+
+.messageimgboxIII {
+width: 100%;
+height: 35%;
+margin-left: 2%;
+}
+
+.link2III {
+  background-color: gray;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 95%;
+
+}

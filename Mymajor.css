@@ -1,0 +1,226 @@
+button{
+  float: right;
+}
+
+.Tittle {
+  text-align: center;
+}
+
+.works {
+  text-decoration: none;
+  color: black;
+  margin-left: 13%;
+}
+
+
+
+
+.modalwindow{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: ;
+opacity: 0;
+pointer-events: none;
+filter:;
+}
+
+
+.modalwindow:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblock{
+  height: 650px;
+position: relative;
+background-color: white;
+margin: auto;
+}
+
+
+
+.heading{
+  position: relative;
+  width: 70%;
+  margin-left: 6%;
+
+}
+
+
+.imginwindow{
+  width: 27%;
+  height: 300px;
+  margin-left: 5%;
+}
+
+.link{
+  background-color: white;
+  text-align: center;
+  margin-left: 97%;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+  color: black;
+
+}
+
+.messageimgbox {
+width: 100%;
+height: 35%;
+margin-left: 6%;
+}
+
+.link2 {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 90%;
+
+}
+
+.whiteline hr {
+  color: white;
+
+}
+
+
+.modalwindowII{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: ;
+opacity: 0;
+pointer-events: none;
+filter:;
+}
+
+
+.modalwindowII:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblockII{
+  height: 650px;
+position: relative;
+background-color: white;
+margin: auto;
+}
+
+
+
+.heading{
+  position: relative;
+  width: 70%;
+  margin-left: 6%;
+
+}
+
+
+.imginwindowII {
+  width: 30%;
+  height: 300px;
+  margin-left: 15%;
+}
+
+.link{
+  background-color: white;
+  text-align: center;
+  margin-left: 98%;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+  color: black;
+
+}
+
+.messageimgbox {
+width: 100%;
+height: 35%;
+margin-left: 6%;
+}
+
+.link2II {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 90%;
+
+}
+
+
+
+
+
+.modalwindowIII{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: ;
+opacity: 0;
+pointer-events: none;
+filter:;
+}
+
+.modalwindowIII:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.msgblockIII{
+  height: 650px;
+position: relative;
+background-color: white;
+margin: auto;
+}
+
+
+
+.heading{
+  position: relative;
+  width: 70%;
+  margin-left: 6%;
+
+}
+
+
+.imginwindowIII{
+  width: 25%;
+  height: 350px;
+  margin-left: 5%;
+}
+
+.link{
+  background-color: white;
+  text-align: center;
+  margin-left: 97%;
+  text-decoration: none;
+  padding: 7px;
+  float: left;
+  color: black;
+
+}
+
+.messageimgbox {
+width: 100%;
+height: 35%;
+margin-left: 6%;
+}
+
+.link2III {
+  background-color: red;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  margin-left: 95%;
+
+}
